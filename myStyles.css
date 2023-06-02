@@ -1,0 +1,186 @@
+
+body
+{
+    background-image: url(./shara\ desert.jpg);
+}
+.contaner1
+{
+    height: 40px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;   
+    position: relative;
+    top: 0px;
+    right: 70px;
+    gap: 40px;
+    
+}
+.me
+{
+    color: white;
+    text-decoration-line: none;
+}
+
+            /* main_contener */
+.main_contener
+{
+    display: flex;
+}
+
+.main1
+{
+   /* border: 1px solid blue; */
+}
+.sah2
+{
+  /* border: 0.01px solid blue; */
+  position: relative;
+  top: 70px;
+  left: 100px;
+}
+p,h1
+{
+    color: white;   
+}
+.h1a
+{
+    font-size: 50px;
+}
+.explore
+{
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* grid */
+.AI_con
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px 40px;
+}
+.AI
+{
+    height: 190px;
+    width: 170px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.AI:hover
+{
+    transform: translateY(-10px);
+}
+.AIh
+{
+    font-size: 20px;
+}
+.AIp
+{
+    font-size: 10px;
+}
+.AI1
+{
+    background-image: url(./pic-1.png);
+    background-size: cover;
+}
+.AI2
+{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+}
+.AI3
+{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+}
+.AI4
+{
+    background-image: url(./pic-4.png);
+    background-size: cover;
+}
+
+/* media */
+@media screen and (min-width:560px) and (max-width:855px){
+.main_contener
+{
+    flex-direction: column;
+    align-items: center;
+}
+.sah2
+{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+/* grid */
+.AI_con
+{
+    grid-template-columns: auto;
+    grid-gap: 20px;
+}    
+.AI
+{
+    width: 450px;
+}
+}
+/* mobile View */
+@media screen and (min-width:320px) and (max-width:720px){
+    .main_contener
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sah2
+    {
+      position: relative;
+      top: 0px;
+      left: 0px;
+    }
+    .logo
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.menu
+{
+    display: flex;
+    align-items: center;   
+    position: relative;
+    top: 0px;
+    right: 0px;
+    gap: 40px;
+    
+}
+    /* grid */
+    .AI_con
+    {
+        grid-template-columns: auto;
+        grid-gap: 20px;
+    }    
+    .AI
+    {
+        width: 200px;
+    }
+
+    } 
